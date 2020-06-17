@@ -1053,3 +1053,25 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 ---
+
+## build on mac
+
+```sh
+$ brew cask install java
+$ brew install maven
+$ java -jar modules/openapi-generator-cli/target/openapi-generator-cli.ja
+usage: openapi-generator-cli <command> [<args>]
+
+The most commonly used openapi-generator-cli commands are:
+    author        Utilities for authoring generators or customizing templates.
+    config-help   Config help for chosen lang
+    generate      Generate code with the specified generator.
+    help          Display help information about openapi-generator
+    list          Lists the available generators
+    meta          MetaGenerator. Generator for creating a new template set and configuration for Codegen.  The output will be based on the language you specify, and includes default templates to include.
+    validate      Validate specification
+    version       Show version information used in tooling
+
+See 'openapi-generator-cli help <command>' for more information on a specific
+command.
+```
