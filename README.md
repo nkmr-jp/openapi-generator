@@ -1059,6 +1059,7 @@ limitations under the License.
 ```sh
 $ brew cask install java
 $ brew install maven
+$ mvn clean install 
 $ java -jar modules/openapi-generator-cli/target/openapi-generator-cli.ja
 usage: openapi-generator-cli <command> [<args>]
 
